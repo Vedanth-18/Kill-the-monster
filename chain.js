@@ -4,7 +4,7 @@ class Chain{
            bodyA: bodyA,
            pointB:pointB,
            length:80,
-           stiffness: 0.02
+           stiffness: 0.04
        }
        this.chain =Constraint.create(options);
        this.bodyA = bodyA;
